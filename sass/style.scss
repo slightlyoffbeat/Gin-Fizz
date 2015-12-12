@@ -1,0 +1,53 @@
+/*!
+Theme Name: Gin and Tonic
+Theme URI: http://danvswild.com/ginandtonic
+Author: Dan Brown
+Author URI: http://www.danvswild.com
+Description: A Boostrap 3 + Wordpress starter theme
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: bootstrap
+
+This theme, like WordPress, is licensed under the GPL.
+
+"More human than human is our motto."
+
+*/
+
+// Variables
+@import "variables/bootstrap-variables";
+@import "variables/custom-variables";
+
+// Mixins
+
+// Normalize
+@import "normalize";
+
+// Vendors
+@import "../vendor/bootstrap/stylesheets/bootstrap";
+@import "../vendor/font-awesome/scss/font-awesome";
+
+// Base
+@import "base/body";
+@import "base/links";
+
+// Typography
+
+// Components
+
+// Media
+@import "media/captions";
+@import "media/images";
+
+// Layouts
+@import "layouts/header";
+@import "layouts/content";
+@import "layouts/post";
+@import "layouts/sidebar";
+
+// Pages
+
+// Utilities
+@import "utilities/align";
+@import "utilities/accessibility";

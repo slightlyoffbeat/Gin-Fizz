@@ -1,0 +1,13 @@
+// ----------------------------------------------------------------------------------------
+// Custom Variables
+// ----------------------------------------------------------------------------------------
+
+
+// Wordpress Colors
+$entry-header-color        : #444;
+$entry-header-color--hover : lighten($entry-header-color, 20%);
+
+// Transition Times
+$transition:									.3s;
+$transition__fast:						.1s;
+$transition__slow:						.5s;
